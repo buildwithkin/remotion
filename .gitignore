@@ -1,0 +1,21 @@
+node_modules/
+out/
+.DS_Store
+
+# Assets — add your own, don't commit originals
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.gpx
+*.mp4
+*.mov
+
+# Secrets
+.env
+.env.local
+
+# Tool state
+.claude/
+.gstack/

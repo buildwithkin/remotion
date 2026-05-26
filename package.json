@@ -1,0 +1,28 @@
+{
+  "name": "remotion-article-highlight",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "remotion studio",
+    "render": "remotion render ArticleHighlight out/video.mp4",
+    "build": "remotion render"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@turf/turf": "^7.3.5",
+    "d3-geo": "^3.1.1",
+    "maplibre-gl": "^5.24.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0",
+    "roughjs": "^4.6.6",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.0",
+    "@types/react": "^18.3.22",
+    "@types/react-dom": "^18.3.5",
+    "@types/topojson-client": "^3.1.5",
+    "@types/topojson-specification": "^1.0.5",
+    "typescript": "^5.7.3"
+  }
+}
