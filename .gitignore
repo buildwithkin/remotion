@@ -7,10 +7,12 @@ out/
 *.jpg
 *.jpeg
 *.webp
-*.gif
 *.gpx
 *.mp4
 *.mov
+
+# Allow preview GIFs in assets/
+!assets/*.gif
 
 # Secrets
 .env

@@ -4,14 +4,23 @@ Three Remotion compositions for generating short-form video b-roll. Built for 9:
 
 ## Compositions
 
-### ArticleHighlight
-Animates a screenshot of any article with rough.js marker highlights, a blur focus-pull intro, and a slow 3D perspective rotation. Uses `mix-blend-mode: multiply` so the highlights appear behind the text.
-
-### TravelMap
-Draws a great-circle flight path between two cities on a Stadia watercolor map. Camera follows the route head, zooms into the destination, then pulls back to show the surrounding region with an animated outline.
-
-### RunStory
-Converts a Strava/Garmin GPX file into a 15-second animated story. Shows a MapLibre dark map with the route drawing in real time, overlaid with live metrics (distance, time, pace, elevation) synced to the actual GPS timestamps.
+<table>
+<tr>
+<td align="center"><b>ArticleHighlight</b></td>
+<td align="center"><b>TravelMap</b></td>
+<td align="center"><b>RunStory</b></td>
+</tr>
+<tr>
+<td><img src="assets/articlehighlight.gif" width="220"/></td>
+<td><img src="assets/travelmap.gif" width="220"/></td>
+<td><img src="assets/runstory.gif" width="220"/></td>
+</tr>
+<tr>
+<td>Article screenshot with rough.js marker highlights, blur focus-pull intro, and slow 3D perspective rotation. Uses <code>mix-blend-mode: multiply</code> so highlights appear behind the text.</td>
+<td>Great-circle flight path between two cities on a Stadia watercolor map. Camera follows the route head, zooms into the destination, then pulls back to outline the surrounding region.</td>
+<td>Converts a Strava/Garmin GPX file into a 15-second story. MapLibre dark map with the route drawing in real time, overlaid with live metrics synced to actual GPS timestamps.</td>
+</tr>
+</table>
 
 ---
 
